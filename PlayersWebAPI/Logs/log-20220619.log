@@ -1,0 +1,63 @@
+2022-06-19 16:06:00.604 +02:00 [Information] Starting web host
+2022-06-19 16:07:10.054 +02:00 [Information] Starting web host
+2022-06-19 16:07:12.380 +02:00 [Information] User profile is available. Using '"C:\Users\S851404DEV\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-19 16:07:13.546 +02:00 [Fatal] Unable to start Kestrel.
+System.InvalidOperationException: A path base can only be configured using IApplicationBuilder.UsePathBase().
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.ParseAddress(String address, Boolean& https)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2022-06-19 16:07:13.851 +02:00 [Fatal] Host terminated unexpectedly
+System.InvalidOperationException: A path base can only be configured using IApplicationBuilder.UsePathBase().
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.ParseAddress(String address, Boolean& https)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.RunAsync(IWebHost host, CancellationToken token, String shutdownMessage)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.RunAsync(IWebHost host, CancellationToken token)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.Run(IWebHost host)
+   at PlayersWebAPI.Program.Main(String[] args) in C:\Users\S851404DEV\source\repos\PlayersAPI\PlayersWebAPI\Program.cs:line 38
+2022-06-19 16:07:39.061 +02:00 [Information] Starting web host
+2022-06-19 16:07:40.825 +02:00 [Information] User profile is available. Using '"C:\Users\S851404DEV\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-19 16:07:48.250 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2022-06-19 16:07:49.458 +02:00 [Information] Request finished in 1210.1946ms 404 
+2022-06-19 16:07:51.086 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/players  
+2022-06-19 16:07:51.168 +02:00 [Information] Route matched with "{action = \"GetAllPlayers\", controller = \"Players\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[PlayersWebAPI.Core.Entities.Player]] GetAllPlayers()" on controller "PlayersWebAPI.Controllers.PlayersController" ("PlayersWebAPI").
+2022-06-19 16:08:20.461 +02:00 [Information] Starting web host
+2022-06-19 16:08:22.656 +02:00 [Information] User profile is available. Using '"C:\Users\S851404DEV\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-19 16:08:25.080 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2022-06-19 16:08:25.310 +02:00 [Information] Request finished in 233.1774ms 404 
+2022-06-19 16:08:27.874 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/players  
+2022-06-19 16:08:27.915 +02:00 [Information] Route matched with "{action = \"GetAllPlayers\", controller = \"Players\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[PlayersWebAPI.Core.Entities.Player]] GetAllPlayers()" on controller "PlayersWebAPI.Controllers.PlayersController" ("PlayersWebAPI").
+2022-06-19 16:09:50.407 +02:00 [Information] Starting web host
+2022-06-19 16:09:52.587 +02:00 [Information] User profile is available. Using '"C:\Users\S851404DEV\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-19 16:09:54.975 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2022-06-19 16:09:55.201 +02:00 [Information] Request finished in 228.5731ms 404 
+2022-06-19 16:10:00.130 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/players  
+2022-06-19 16:10:00.175 +02:00 [Information] Route matched with "{action = \"GetAllPlayers\", controller = \"Players\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[PlayersWebAPI.Core.Entities.Player]] GetAllPlayers()" on controller "PlayersWebAPI.Controllers.PlayersController" ("PlayersWebAPI").
+2022-06-19 16:21:01.454 +02:00 [Information] Starting web host
+2022-06-19 16:21:03.417 +02:00 [Information] User profile is available. Using '"C:\Users\S851404DEV\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-19 16:21:05.580 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2022-06-19 16:21:05.870 +02:00 [Information] Request finished in 292.0767ms 404 
+2022-06-19 16:21:07.925 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/players  
+2022-06-19 16:21:07.970 +02:00 [Information] Route matched with "{action = \"GetAllPlayers\", controller = \"Players\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[PlayersWebAPI.Core.Entities.Player]] GetAllPlayers()" on controller "PlayersWebAPI.Controllers.PlayersController" ("PlayersWebAPI").
+2022-06-19 16:21:08.083 +02:00 [Information] Executing action method "PlayersWebAPI.Controllers.PlayersController.GetAllPlayers (PlayersWebAPI)" - Validation state: Valid
+2022-06-19 16:21:08.092 +02:00 [Information] Executed action method "PlayersWebAPI.Controllers.PlayersController.GetAllPlayers (PlayersWebAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.6087ms.
+2022-06-19 16:21:08.110 +02:00 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[PlayersWebAPI.Core.Entities.Player, PlayersWebAPI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-06-19 16:21:08.137 +02:00 [Information] Executed action "PlayersWebAPI.Controllers.PlayersController.GetAllPlayers (PlayersWebAPI)" in 162.1827ms
+2022-06-19 16:21:08.140 +02:00 [Information] Request finished in 214.704ms 200 application/json; charset=utf-8
+2022-06-19 16:21:17.457 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/players/statistics  
+2022-06-19 16:21:17.462 +02:00 [Information] Route matched with "{action = \"GetStatistics\", controller = \"Players\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[PlayersWebAPI.Core.Entities.Statistics] GetStatistics()" on controller "PlayersWebAPI.Controllers.PlayersController" ("PlayersWebAPI").
+2022-06-19 16:21:17.463 +02:00 [Information] Executing action method "PlayersWebAPI.Controllers.PlayersController.GetStatistics (PlayersWebAPI)" - Validation state: Valid
+2022-06-19 16:21:19.454 +02:00 [Information] Executed action method "PlayersWebAPI.Controllers.PlayersController.GetStatistics (PlayersWebAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1990.8135ms.
+2022-06-19 16:21:19.456 +02:00 [Information] Executing ObjectResult, writing value of type '"PlayersWebAPI.Core.Entities.Statistics"'.
+2022-06-19 16:21:19.467 +02:00 [Information] Executed action "PlayersWebAPI.Controllers.PlayersController.GetStatistics (PlayersWebAPI)" in 2004.0245ms
+2022-06-19 16:21:19.468 +02:00 [Information] Request finished in 2010.9749ms 200 application/json; charset=utf-8
+2022-06-19 16:21:27.794 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/players/52  
+2022-06-19 16:21:27.818 +02:00 [Information] Route matched with "{action = \"GetPlayer\", controller = \"Players\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[PlayersWebAPI.Core.Entities.Player] GetPlayer(Int32)" on controller "PlayersWebAPI.Controllers.PlayersController" ("PlayersWebAPI").
+2022-06-19 16:21:27.838 +02:00 [Information] Executing action method "PlayersWebAPI.Controllers.PlayersController.GetPlayer (PlayersWebAPI)" - Validation state: Valid
+2022-06-19 16:21:29.631 +02:00 [Information] Executed action method "PlayersWebAPI.Controllers.PlayersController.GetPlayer (PlayersWebAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1792.7381ms.
+2022-06-19 16:21:29.632 +02:00 [Information] Executing ObjectResult, writing value of type '"PlayersWebAPI.Core.Entities.Player"'.
+2022-06-19 16:21:29.635 +02:00 [Information] Executed action "PlayersWebAPI.Controllers.PlayersController.GetPlayer (PlayersWebAPI)" in 1814.1428ms
+2022-06-19 16:21:29.636 +02:00 [Information] Request finished in 1841.0702ms 200 application/json; charset=utf-8
